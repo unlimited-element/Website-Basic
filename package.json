@@ -1,0 +1,23 @@
+{
+  "name": "website-basic",
+  "version": "1.0.0",
+  "description": "A basic website set up",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unlimited-element/Website-Basic.git"
+  },
+  "keywords": [
+    "[javascript]",
+    "[bootstrap]"
+  ],
+  "author": "Julius Bolden",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/unlimited-element/Website-Basic/issues"
+  },
+  "homepage": "https://github.com/unlimited-element/Website-Basic#readme"
+}
