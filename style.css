@@ -22,9 +22,25 @@ nav {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
 }
 
+#myBar {
+  margin-top: 6rem;
+  animation: zoom 3s ease forwards 1;
+}
 
+@keyframes zoom {
+  0% {
+    width: 0;
+  }
+  99% {
+    width: 100%;
+  }
+  100% {
+    width: 0;
+  }
+}
 
 .nucleus {
+  padding-top: 3rem;
   animation: fadeIn 2s ease-in 0s 1;
 }
 
