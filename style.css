@@ -2,9 +2,45 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Bangers&display=swap");
 
+ body {
+  --bgcolor: black;
+  --fontcolor: white;
+}
+
+.light-theme {
+  --bgcolor: white;
+  background-color: var(--bgcolor);
+}
+
+.dark-theme {
+  --bgcolor: black;
+  --fontcolor: #6d96ff;
+  color: #6d96ff;
+  background-color: var(--bgcolor);
+ 
+}
+
 .flipmode {
   background: linear-gradient(to bottom, #6d96ff 0%, #E8DBCB 100%);
 
+}
+
+#imgs {
+  width: 5rem;
+}
+
+footer {
+  background-color: inherit;
+  font-family: Bangers;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: normal;
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+
+  text-shadow: 8px 8px 16px rgba(0, 0, 0, 0.24);
 }
 
 #nav-img {
@@ -13,7 +49,6 @@
   font-weight: normal;
   font-size: 50px;
   line-height: normal;
-  /* identical to box height */
   display: flex;
   align-items: flex-end;
   text-align: center;
@@ -23,7 +58,8 @@
   text-shadow: 8px 8px 16px rgba(0, 0, 0, 0.24);
 }
 
-nav {
+ nav {
+  background-color: inherit;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
 }
 

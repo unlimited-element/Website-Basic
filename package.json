@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/unlimited-element/Website-Basic/issues"
   },
-  "homepage": "https://github.com/unlimited-element/Website-Basic#readme"
+  "homepage": "https://github.com/unlimited-element/Website-Basic#readme",
+  "dependencies": {
+    "@forevolve/bootstrap-dark": "^1.2.0-g6c89781692"
+  }
 }
