@@ -1,11 +1,11 @@
 /* JB Labs */
 
 @import url("https://fonts.googleapis.com/css2?family=Bangers&display=swap");
-
+/* 
  body {
   --bgcolor: black;
   --fontcolor: white;
-}
+} */
 
 .light-theme {
   --bgcolor: white;
@@ -15,7 +15,7 @@
 .dark-theme {
   --bgcolor: black;
   --fontcolor: #6d96ff;
-  color: #6d96ff;
+  color: var(--fontcolor);
   background-color: var(--bgcolor);
  
 }
