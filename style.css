@@ -7,6 +7,10 @@
   --fontcolor: white;
 } */
 
+p {
+  text-align: center;
+}
+
 .light-theme {
   --bgcolor: white;
   background-color: var(--bgcolor);
@@ -21,6 +25,7 @@
 }
 
 .flipmode {
+  width: 100%;
   background: linear-gradient(to bottom, #6d96ff 0%, #E8DBCB 100%);
 
 }

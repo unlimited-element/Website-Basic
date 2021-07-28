@@ -19,10 +19,3 @@ const swapper = () => {
 }
 const checkSwap = swap.onclick = swapper;
 // ----------------------------------
-
-// const updateInnerText = () => {
-//     if (document.body.classList[0] == "dark-theme") {
-//         document.getElementById('btn-swapper').innerText = "Light Theme";
-//     }
-// }
-// const buttonSwap = document.getElementsByClassName("btn")[0].innerText.onclick = updateInnerText;
